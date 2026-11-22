@@ -154,9 +154,10 @@ Move the built `Pareizrakstiba.service` bundle to one of the following locations
 
 Been using [clangd](https://clangd.llvm.org) for a long time. Switched this project to VS Code, which means using [vscode-clangd](https://github.com/clangd/vscode-clangd?tab=readme-ov-file) extension instead of MS IntelliSense.
 
-This will generate `compile_commands.json` to make the clangd language server happy
+This (needs [bear](https://github.com/rizsotto/bear)) will generate `compile_commands.json` to make the clangd language server happy
 
 ```zsh
+brew install bear
 ./clangd_generate.sh
 ```
 
