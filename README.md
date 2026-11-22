@@ -163,6 +163,8 @@ brew install bear
 
 ### clang-format
 
+Code linted using [ClangFormat](https://clang.llvm.org/docs/ClangFormat.html), LLVM base chosen (see `.clang-format`)
+
 ```zsh
 ./clang-format.sh --help
 ```
