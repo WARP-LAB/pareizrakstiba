@@ -69,7 +69,7 @@ defaults write NSGlobalDomain NSPreferredSpellServerLanguage 'lv'
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool FALSE
 ```
 
-### Bug reports and feature requests
+## Bug reports and feature requests
 
 Via [GitHub Issues](https://github.com/WARP-LAB/pareizrakstiba/issues/new/choose)
 
