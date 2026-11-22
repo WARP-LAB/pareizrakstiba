@@ -18,13 +18,16 @@ Serviss, kas pievieno sistēmas līmeņa latviešu valodas pareizrakstības pār
 ## Prasības
 
 - macOS 12+
-- Universāla (Intel un Apple Silicon)
-- Pārbaudīts uz macOS 27 un macOS 12
+- Universāla (Apple Silicon un Intel)
+- Pārbaudīts uz
+  - macOS 27
+  - macOS 12
 
 ## Instalēšana
 
 - [Lejupielādē jaunāko laidienu](https://github.com/WARP-LAB/pareizrakstiba/releases/latest/download/Pareizrakstiba.dmg), vai skati [izmaiņu piezīmes](https://github.com/WARP-LAB/pareizrakstiba/releases/latest/), kur zem _Assets_ atradīsi DMG
 - Atver DMG failu, palaid instalētāju `Pareizrakstiba.pkg`, seko norādēm
+- Pēc instalācijas, ja vēlies lietot pareizrakstības pārbaudi kādā aplikācijā, kas bija jau atvērta, pārstartē to
 
 ## Atinstalēšana
 
@@ -65,6 +68,10 @@ defaults write NSGlobalDomain NSPreferredSpellServerLanguage 'lv'
 # Izslēgt sistēmas līmeņa automātisko labošanu
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool FALSE
 ```
+
+### Kļūdu ziņošana un funkcijas pieprasījums
+
+Izmantojot [GitHub Issues](https://github.com/WARP-LAB/pareizrakstiba/issues/new/choose)
 
 ## Versiju vēsture
 

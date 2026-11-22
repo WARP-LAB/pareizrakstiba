@@ -16,13 +16,16 @@ Service that adds support for system-wide spell checking in the Latvian language
 ### Requirements
 
 - macOS 12+
-- Universal (Intel & Apple Silicon)
-- Tested on macOS 27 and macOS 12
+- Universal (Apple Silicon & Intel)
+- Tested on
+  - macOS 27
+  - macOS 12
 
 ### Installation
 
 - [Download latest release](https://github.com/WARP-LAB/Pareizrakstiba/releases/latest/download/Pareizrakstiba.dmg), here are [release notes](https://github.com/WARP-LAB/Pareizrakstiba/releases/latest/) and you can find DMG under Assets.
 - Mount DMG and run `Pareizrakstiba.pkg` installer, it will guide you through the process.
+- After installation, if you want to use spell checker in an app that was already open, reopen it.
 
 ### Uninstallation
 
@@ -64,6 +67,10 @@ defaults write NSGlobalDomain NSPreferredSpellServerLanguage 'lv'
 # Disable system-wide autocorrect
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool FALSE
 ```
+
+### Bug reports and feature requests
+
+Via [GitHub Issues](https://github.com/WARP-LAB/pareizrakstiba/issues/new/choose)
 
 </details>
 
