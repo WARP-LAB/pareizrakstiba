@@ -11,6 +11,21 @@ sitemap: false
   <meta name="robots" content="noindex, follow">
   <title>Pareizrakstība</title>
   <meta name="description" content="Pareizrakstība is service that adds support for system-wide spell checking in the Latvian language for the macOS operating system.">
+  <!-- Link-preview crawlers do not run the redirect script below, so the
+       root URL needs its own Open Graph tags to get a preview card. -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:url" content="{{ '/' | absolute_url }}">
+  <meta property="og:image" content="{{ site.image.path | absolute_url }}">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="{{ site.image.width }}">
+  <meta property="og:image:height" content="{{ site.image.height }}">
+  <meta property="og:image:alt" content="{{ site.image.alt }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="{{ site.image.path | absolute_url }}">
+  <meta name="twitter:image:alt" content="{{ site.image.alt }}">
   <link rel="stylesheet" href="assets/style.css">
   <script>
     // GitHub Pages has no server-side redirects and no language negotiation,

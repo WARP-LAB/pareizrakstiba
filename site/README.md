@@ -62,7 +62,10 @@ What the layout already emits, when `url` is set in `_config.yml`:
 
 - unique `<title>` and meta description per page, `<html lang>`
 - `rel="canonical"` and paired `hreflang` links between `/en/` and `/lv/`
-- Open Graph and Twitter card tags, with `og:locale` per language
+- Open Graph and Twitter card tags, with `og:locale` per language and a
+  shared preview image (`image` in `_config.yml`,
+  `media/social-preview.jpg`); the redirect at `/` carries the same tags,
+  since link-preview crawlers do not run its script
 - JSON-LD `SoftwareApplication` structured data
 - `/sitemap.xml` (jekyll-sitemap) and `/robots.txt` pointing at it
 - `noindex` plus `sitemap: false` on the redirect at `/`

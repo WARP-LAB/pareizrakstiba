@@ -1,7 +1,7 @@
 ---
 title: Pareizrakstība - latviešu valodas pareizrakstība macOS
 description: >-
-  Pareizrakstība is serviss, kas pievieno sistēmas līmeņa latviešu valodas pareizrakstības pārbaudi macOS operētājsistēmai
+  Pareizrakstība ir serviss, kas pievieno sistēmas līmeņa latviešu valodas pareizrakstības pārbaudi macOS operētājsistēmai
 keywords:
   - latviešu pareizrakstība
   - pareizrakstības pārbaude macOS

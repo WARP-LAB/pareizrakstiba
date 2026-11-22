@@ -7,12 +7,23 @@ title: Pareizrakstība
 description: Latvian spellcheck for the macOS operating system.
 lang: en # default language, used when a page has no lang of its own
 
-# Absolute URL of the published site. Used only for canonical and hreflang
-# links - everything else is relative, so the same files work at a custom
-# domain and at <user>.github.io/<repo>/ without touching baseurl.
+# Absolute URL of the published site. Used only for canonical, hreflang
+# and Open Graph links - everything else is relative, so the same files
+# work at a custom domain and at <user>.github.io/<repo>/ without touching
+# baseurl.
 # Project pages: https://warp-lab.github.io/pareizrakstiba
 url: 'https://warp-lab.github.io/pareizrakstiba'
 baseurl: ''
+
+# Link preview image (og:image / twitter:image) for every page. The
+# repository's GitHub "Social preview" only applies to github.com links,
+# not to this site. Opaque JPEG on purpose: some platforms render PNG
+# transparency as black. 2:1 is what summary_large_image expects.
+image:
+  path: /media/social-preview.jpg
+  width: 1024
+  height: 512
+  alt: Pareizrakstība icon - a white building block with the Latvian flag
 
 markdown: kramdown
 kramdown:
