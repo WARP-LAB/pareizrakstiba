@@ -163,11 +163,15 @@ brew install bear
 
 ### clang-format
 
-Code linted using [ClangFormat](https://clang.llvm.org/docs/ClangFormat.html), LLVM base chosen (see `.clang-format`)
+Code formatted using [ClangFormat](https://clang.llvm.org/docs/ClangFormat.html), LLVM base chosen (see `.clang-format`)
 
 ```zsh
 ./clang-format.sh --help
 ```
+
+### clang-tidy
+
+[Clang-Tidy](https://clang.llvm.org/extra/clang-tidy/) not run on the codebase.
 
 ## Version history
 
