@@ -52,8 +52,8 @@ Instalēšanas laikā Pareizrakstība noņem visas iepriekšējās tās versijas
 ## Vecāku OS versiju atbalsts
 
 - macOS 10.13+ Apple Silicon un Intel (Universāla) (not signed) [v4.1.0](https://github.com/WARP-LAB/Pareizrakstiba/releases/tag/v4.1.0)
-- Mac OS X 10.7 to Mac OS X 10.9 Intel 32 & 64-bit [Pareizrakstiba-Archive](https://github.com/WARP-LAB/Pareizrakstiba-Archive)
-- Mac OS X 10.4 to Mac OS X 10.6 PPC & Intel 32/64-bit (Universāla) versijas pieglabātas citur
+- Mac OS X 10.7 līdz Mac OS X 10.9 Intel 32/64-bit [Pareizrakstiba-Archive](https://github.com/WARP-LAB/Pareizrakstiba-Archive)
+- Mac OS X 10.4 līdz Mac OS X 10.6 PPC un Intel 32/64-bit (Universāla) versijas pieglabātas citur
 
 ## Pareizrakstības konfigurēšana no CLI
 

@@ -52,7 +52,7 @@ Upon installation, Pareizrakstība checks for and removes all previous versions.
 ## Older OS support
 
 - macOS 10.13+ Apple Silicon & Intel (Universal) (not signed) [v4.1.0](https://github.com/WARP-LAB/Pareizrakstiba/releases/tag/v4.1.0)
-- Mac OS X 10.7 to Mac OS X 10.9 Intel 32 & 64-bit [Pareizrakstiba-Archive](https://github.com/WARP-LAB/Pareizrakstiba-Archive)
+- Mac OS X 10.7 to Mac OS X 10.9 Intel 32/64-bit [Pareizrakstiba-Archive](https://github.com/WARP-LAB/Pareizrakstiba-Archive)
 - Mac OS X 10.4 to Mac OS X 10.6 PPC & Intel 32/64-bit (Universal binary) versions saved locally
 
 ## Spelling configuration via CLI
