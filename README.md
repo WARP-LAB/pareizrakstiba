@@ -178,7 +178,11 @@ Code formatted using [ClangFormat](https://clang.llvm.org/docs/ClangFormat.html)
 
 See [CHANGELOG.md](CHANGELOG.md).
 
-## OS API / behaviour bugs
+## Known issues
+
+### OS API / behaviour bugs
+
+#### _Automatic by Language_ spelling does not work
 
 Bugs reported to Apple (OpenRadar), never resolved:
 - [https://lists.apple.com/archives/cocoa-dev/2009/oct/msg00637.html](https://web.archive.org/web/20240812193115/https://lists.apple.com/archives/cocoa-dev/2009/oct/msg00637.html)
